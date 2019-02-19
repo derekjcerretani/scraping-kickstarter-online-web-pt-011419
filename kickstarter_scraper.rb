@@ -10,6 +10,7 @@ kickstarter = Nokogiri::HTML(html)
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 # location: project.css("span.location-name").text
+# percent funded: project
 
 def create_project_hash
   # write your code here
